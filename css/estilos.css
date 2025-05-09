@@ -1,0 +1,477 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;  
+    margin-bottom: 100px;
+    
+}
+.contenedor-navbar{
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.671);
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    background-color: white;
+    top: 0;
+    z-index: 1000;
+}
+.logo{
+    display: flex;
+    height: 60px;
+    width: 100px;
+    animation: aparecer 1.5s ease forwards;
+}
+.nav-links{
+    display: flex;
+    gap: 20px;
+   
+}
+    
+
+.nav-links a{
+    text-decoration: none;
+    font-weight: bold;
+    transition: all .3s ease-in-out;
+    color: black;
+}
+    
+.nav-links a:hover{
+    color: green;
+}
+
+
+
+/* Index */
+.contenido-intro{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(52, 155, 107);
+    height: 100vh;
+
+}
+.imagen-intro{
+    padding: 10px;
+    height: 380px;
+    margin-left: 60px;
+    width: 80%;
+}
+.intro{
+    text-align: center;
+    padding-right: 50px;
+}
+
+.titulo-noticias{
+    padding: 25px;
+    text-align: center;
+}
+.contenedor-noticias{
+    background-color: rgb(253, 253, 86);
+    padding: 10px;
+}
+
+.contenido-noticias{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-items: center;
+    gap: 15px;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    gap: 25px;
+    
+}
+.contenedor-noticia {
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+    gap: 10px;
+    height: 550px; 
+    width: 350px;
+    box-shadow: 0px 0px 15px rgb(102, 102, 102);
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.contenedor-imagen-noticia{
+    height: 250px;
+    width: 100%;
+}
+
+.imagen-noticia {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.contenido-noticia {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 100%;
+    width: 100%;
+    padding: 0 8px;
+}
+.titular-noticia, .fecha-noticia, .subtitulo-noticia {
+    padding: 0 8px;
+}
+
+.link-noticia {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 10px;
+    gap: 20px;
+}
+.link-noticia button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(227, 231, 92);   
+}
+.link-noticia button:hover {
+    cursor: pointer;
+    background-color: rgb(248, 250, 203);
+}
+.link-noticia button a{
+    text-decoration: none;
+    color: rgb(7, 6, 6);
+}
+.contenedor-toptenistas{
+    height: auto;
+    background:  url(../images/fondo1.jpg) center/cover no-repeat fixed ;
+}
+.contenido-toptenistas{
+    width: 100%;
+    height: auto;
+    background-color: rgba(240, 248, 255, 0.664);
+}
+.titulo-toptenistas{
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+.toptenistas{
+    display: flex;
+    flex-wrap: wrap;
+    width: 77%;
+    max-width: 950px;
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
+    padding: 8px;
+    margin: 0 auto;
+    z-index: 4;
+}
+.tenista{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    gap: 2px;
+    margin-bottom: 0px;
+    transition: all 0.3s ease-in-out;
+    max-width: 100%;
+}
+.tenista:hover{
+    transform: translateY(-20px);
+}
+.tenista img{
+    width: 100%;
+    object-fit: cover;
+    height: 300px;
+    z-index: 4;
+}
+.descripcion{
+    background-color: rgb(93, 244, 106);
+    padding: 4px;
+    margin-top: -5px;
+    transform: translateY(-85px);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    transition: all 0.5s ease-in-out;
+}
+.contenedor-descripcion img{
+    width: 50px;
+    height: auto;
+    position: relative;
+    top: -20px;
+    transition: all 0.4s ease-in-out;
+}
+.tenista:hover .descripcion{
+    transform: translateY(0px);
+}
+.tenista:hover .contenedor-descripcion img{
+    opacity: 0;
+}
+.contenido-grafico-toptenistas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(240, 248, 255, 0.664);
+}
+.titulo-grafico-toptenistas{
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+.grafico-toptenistas{
+    padding-left: 50px;
+    padding-bottom: 50px;
+}
+.contenido-trofeos{
+    align-items: center;
+    background-color: rgb(182, 227, 114);
+    padding-bottom: 30px;
+    
+    
+}
+.titulo-trofeos{
+    padding: 25px;
+    text-align: center;
+}
+.carrusel-trofeos{
+    justify-content: center;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contenido-carrusel-trofeos{
+    padding-bottom: 20px;
+}
+.imagen-carrusel{
+    width: 110px;
+    height: 90px;
+    
+}
+.imagen-flecha{
+    width: 90px;
+    height: 90px;
+
+}
+#fizq, #izq85, #izq50, #centro, #der85, #der50, #fder{
+    display: inline-block;
+    vertical-align: top;
+}
+#izq85{
+    opacity: 0.25;
+}
+#izq50{
+    opacity: 0.5;
+}
+#centro{
+    opacity: 1;
+}
+#der85{
+    opacity: 0.25;
+}
+#der50{
+    opacity: 0.5;
+}
+.imagengrande-trofeos{
+    padding-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.fotogrande-trofeos{
+    width: 450px;
+    height: 300px;
+   
+}
+.texto-imagengrande{
+    width: 450px;
+    height: 40px;
+    background-color: rgb(255, 255, 0);
+}
+.texto-imagengrande h2{
+    text-align: center;
+    padding-top: 3px;
+}
+/*Galeria*/
+.contenedor-galeria{
+    background-color: rgb(245, 245, 134);
+    padding-bottom: 25px;
+}
+.titulo-galeria{
+    text-align: center;
+    padding: 18px;
+}
+.titulo-galeria h1{
+    padding-bottom: 12px;
+}
+.contenido-galeria{
+   text-align: center;
+}
+.image{
+    height: 160px;
+    width: 200px;
+    margin: 8px;
+    border-radius: 5px;
+}
+.image:hover{
+    border: 5px solid rgb(6, 138, 15)
+}
+/*Presupuesto*/
+.contenedor-formulario{
+    margin-top: 100px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 5px;
+    background: url(../images/fondo3.jpg) center/cover no-repeat fixed ;
+
+}
+.titulo-presupuesto{
+    text-align: center;
+    padding: 15px;
+}
+.seccion-formulario{
+    padding: 20px;
+    margin: 10px;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 50px auto;
+    border: 3px inset grey;
+    border-radius: 10px;
+    padding: 40px;
+    background: rgb(243, 243, 215);
+}
+fieldset{
+    background-color: rgb(227, 240, 227);
+}
+
+.input-contenedor {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+input{
+    padding: 5px;
+    border: none;
+    border-bottom: 2px solid grey;
+}
+.seleccion-raqueta{
+    display: flex;
+    flex-direction: column;
+    margin-top: 14px;
+    margin-bottom: 14px;
+    padding: 4px;
+}
+.seleccion-extras{
+    display: flex;
+    flex-direction: column;
+    margin-top: 18px;
+    margin-bottom: 16px;
+    
+}
+.checkbox-extra{
+    margin: 8px;
+}
+.checkbox-privacidad{
+    margin: 5px;
+}
+
+.boton-contenedor{
+    display: flex;
+    flex-direction: column;
+    margin-top: 18px;
+}
+.boton-enviar{
+    padding: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.boton-enviar:hover{
+    color: white;
+    background-color: rgb(3, 143, 3);
+}
+.valido{
+    border-color: green;
+}
+.invalido{
+    border-color: red;
+}
+.error{
+    color: red;
+    padding-bottom: 10px;
+}
+.compra-final{
+    margin: 10px;
+}
+/*Contacto*/
+.contenedor-contacto{
+    background: linear-gradient(to bottom, rgb(98, 220, 98), rgb(244, 244, 22));
+    padding-bottom: 40px;
+}
+.titulo-contacto{
+    text-align: center;
+    padding: 25px;
+}
+.titulo-contacto h1{
+    padding-bottom: 12px;
+}
+.contenido-contacto{
+    display: flex;
+    flex-direction: column;
+}
+.mapa-contacto{
+    border: 4px groove rgb(18, 112, 36);
+    border-radius: 5px;
+    padding-bottom: 20px;
+}
+#map{
+    margin: 0 auto;
+    width: 70%;
+    height: 500px;
+}
+.texto-contacto{
+   margin: 0 auto;
+   padding: 20px 30px;
+   background-color: aquamarine;
+   border: 4px groove rgb(18, 112, 36);
+   border-radius: 5px;
+   border-top: none;
+   width: 70%;
+}
+
+footer{
+    background-color:rgb(26, 24, 24);
+    color: white;
+    padding: 10px;
+}
+footer a{
+    text-decoration: none;
+}
+.logos-redes{
+    height: 30px;
+    width: 30px;
+}
+.logo-Youtube{
+    height: 30px;
+    width: 40px;
+}
+
+
+@keyframes aparecer{
+    0%{
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+

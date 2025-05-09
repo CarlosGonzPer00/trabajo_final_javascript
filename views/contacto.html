@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Contacto </title>
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/openstreetmap.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.css">
+</head>
+<body>
+    <header>
+        <div class="contenedor-navbar">
+            <img class="logo" src="../images/logo-tenis.png" alt="Logo de la federación de tenis">
+            <nav class="nav-links">
+                <a href="../index.html" id="index"> Inicio </a>
+                <a href="./galeria.html"> Galería </a>
+                <a href="./presupuesto.html"> Presupuesto </a>
+                <a href="./contacto.html"> Contacto </a>
+            </nav>
+        </div>
+    </header>
+    <!-- Mapa que realiza una ruta desde la ubicación del cliente hasta la ubicación de la Federacion de Tenis, la cual se acompaña de una cajita debajo con datos de contacto(telefono, correo) -->
+    <section class="contenedor-contacto">
+        <div class="titulo-contacto">
+            <h1> Contacto </h1>
+            <h3> En el siguiente mapa aparece la distancia a la que está nuestra empresa de su ubicación </h3>
+        </div>
+        <div class="contenido-contacto">
+            <div class="mapa-contacto" id="map"></div>
+            <div class="texto-contacto">
+                <p> <b> Nombre de la empresa: </b> Federación Internacional de Tenis <br>
+                    <b> Domicilio social: </b> Gran Vía de Carles III, 124. 08034 Barcelona  <br>
+                    Si tiene algún comentario específico sobre nuestros productos digitales, <b> contáctenos </b> en support@itftennis.com <br>
+                    <b> Gira mundial de tenis masculino: </b> hombres@itftennis.com. Teléfono: +44 (0)20 8392 4697 <br>
+                    <b> Gira mundial de tenis masculino: </b> mujeres@itftennis.com. Teléfono: +44 (0)20 8392 4682
+                </p>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <p> Domicilio social: Gran Vía de Carles III, 124. 08034 Barcelona. <br><br> &copy; Queda prohibida la reproducción total o parcial del contenido sin autorización expresa de la Federación Internacional de Tenis. <br><br> Siguenos en: <br><br></p>
+        <a href="https://x.com/ITFTennis_es?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
+            <img src="../images/x.png" class="logos-redes"  alt="Logo de X">
+        </a>
+        <a href="https://www.facebook.com/InternationalTennisFederation/?locale=es_ES">
+            <img src="../images/facebook.png" class="logos-redes"  alt="Logo de Facebook">
+        </a>
+        <a href="https://www.instagram.com/itftennis_es/">
+            <img src="../images/instagram.png" class="logos-redes" alt="Logo de Instagram">
+        </a>
+        <a href="https://www.youtube.com/channel/UCsyvlpbK0BTEc3jec6nhPyQ">
+            <img src="../images/youtube.png" class="logo-Youtube"  alt="Logo de Youtube">
+        </a>
+    </footer>
+
+
+    
+    
+    <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.js"></script>
+    <script src="../js/openstreetmap.js"></script>
+    <script src ="../js/script.js"></script>
+</body>
+</html>

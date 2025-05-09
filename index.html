@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title> Página principal </title>
+        <link rel="stylesheet" href="./css/estilos.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	    <script src="https://www.gstatic.com/charts/loader.js"></script>
+    </head>
+    
+    
+    
+    <body>
+        <header>
+            <!-- Navegador con el logo de la Federacion de Tenis a la izquierda y las secciones clickables a la derecha -->
+            <div class="contenedor-navbar">
+                <img class="logo" src="./images/logo-tenis.png" alt="Logo de la federación de tenis">
+                <nav class="nav-links">
+                    <a href="./index.html" id="index"> Inicio </a>
+                    <a href="./views/galeria.html" class="link"> Galería </a>
+                    <a href="./views/presupuesto.html" class="link"> Presupuesto </a>
+                    <a href="./views/contacto.html" class="link"> Contacto </a>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <!-- Introduccion de la pagina donde se invita a leer y a estar actualizado con cualquier tema del tenis, con foto a la izquierda y texto a la derecha -->
+            <section class="contenedor-intro">
+                <div class="contenido-intro">
+                    <img class="imagen-intro" src="./images/intro-nadalcaraz.jpg" alt="Nadal y Alcaraz dandose la mano">
+                <div class="intro">
+                    <h2> ¿Quieres enterarte lo que ocurre en el mundo del tenis? </h2>
+                    <p> En esta pagina web podrás conocer las últimas noticias del tenis, los mejores jugadores de la historia, los trofeos más imporntate, el ranking actual ATP...</p>
+                </div>
+
+                </div>
+                
+            </section>
+           <!-- Sección donde se enmarcan en especias de cajas varias de las noticias más destacadas del tenis en ese momento a partir de un archivo externo -->
+            <section class="contenedor-noticias">
+                <div class="titulo-noticias">
+                    <h1> Noticias más destacadas del tenis masculino </h1>
+                </div>
+                <div class="contenido-noticias">
+                    
+                </div>
+                
+            </section>
+            <!-- Cartas con el top de 10 mejores tenistas de la historia donde al pasar por cada imagen se desplega una cajita cone l nombre del tenista. Abajo de las cartas, se realiza un gráfico con el numero de Grand Slams (trofeos) ganado por cada uno de esos tenistas -->
+            <section class="contenedor-toptenistas">
+                <div class="contenido-toptenistas">
+                    <div class="titulo-toptenistas">
+                        <h2> Top 10 mejores tenistas de la historia </h2>
+                    </div>
+                    <div class="toptenistas">
+                        <div class="tenista">
+                            <img src="./images/djokovic-top.jpg" alt="Novak Djokovic">
+                            <div class="contenedor-descripcion">
+                                <div class="descripcion">
+                                    <h4> 1. Novak Djokovic </h4>
+                                </div>
+                                <img src="./images/arrow.svg" alt="Icono de despliegues de los títulos">
+                            </div>
+                        </div>
+                        <div class="tenista">
+                            <img src="./images/nadal-top.jpg" alt="Rafa Nadal">
+                            <div class="contenedor-descripcion">
+                                <div class="descripcion">
+                                    <h4> 2. Rafa Nadal </h4>
+                                </div>
+                                <img src="./images/arrow.svg" alt="Icono de despliegues de los títulos">
+                            </div>
+                        </div>
+                        <div class="tenista">
+                            <img src="./images/federer-top.jpg" alt="Roger Federer">
+                            <div class="contenedor-descripcion">
+                                <div class="descripcion">
+                                    <h4> 3. Roger Federer </h4>
+                                </div>
+                                <img src="./images/arrow.svg" alt="Icono de despliegues de los títulos">
+                            </div>
+                        </div>
+                        <div class="tenista">
+                            <img src="./images/sampras-top.jpg" alt="Pete Sampras">
+                            <div class="contenedor-descripcion">
+                                <div class="descripcion">
+                                    <h4> 4. Pete Sampras </h4>
+                                </div>
+                                <img src="./images/arrow.svg" alt="Icono de despliegues de los títulos">
+                            </div>
+                        </div>
+                        <div class="tenista">
+                            <img src="./images/borg-top.jpg" alt="Bjorn Borg">
+                            <div class="contenedor-descripcion">
+                                <div class="descripcion">
+                                    <h4> 5. Bjorn Borg </h4>
+                                </div>
+                                <img src="./images/arrow.svg" alt="Icono de despliegues de los títulos">
+                            </div>
+                        </div>
+                        <div class="tenista">
+                            <img src="./images/lendl-top.jpg" alt="Ivan Ledl">
+                            <div class="contenedor-descripcion">
+                                <div class="descripcion">
+                                    <h4> 6. Ivan Lendl </h4>
+                                </div>
+                                <img src="./images/arrow.svg" alt="Icono de despliegues de los títulos">
+                            </div>
+                        </div>
+                        <div class="tenista">
+                            <img src="./images/connors-top.jpg" alt="Jimmy Connors">
+                            <div class="contenedor-descripcion">
+                                <div class="descripcion">
+                                    <h4> 7. Jimmy Connors </h4>
+                                </div>
+                                <img src="./images/arrow.svg" alt="Icono de despliegues de los títulos">
+                            </div>
+                        </div>
+                        <div class="tenista">
+                            <img src="./images/agassi-top.jpg" alt="Andre Agassi">
+                            <div class="contenedor-descripcion">
+                                <div class="descripcion">
+                                    <h4> 8. Andre Agassi </h4>
+                                </div>
+                                <img src="./images/arrow.svg" alt="Icono de despliegues de los títulos">
+                            </div>
+                        </div>
+                        <div class="tenista">
+                            <img src="./images/mcenroe-top.jpg" alt="John McEnroe">
+                            <div class="contenedor-descripcion">
+                                <div class="descripcion">
+                                    <h4> 9.John McEnroe </h4>
+                                </div>
+                                <img src="./images/arrow.svg" class="flecha-abajo" alt="Icono de despliegues de los títulos">
+                            </div>
+                        </div>
+                        <div class="tenista">
+                            <img src="./images/wilander-top.jpg" alt="Mats Wilander">
+                            <div class="contenedor-descripcion">
+                                <div class="descripcion">
+                                    <h4> 1o. Mats Wilander </h4>
+                                </div>
+                                <img src="./images/arrow.svg" alt="Icono de despliegues de los títulos">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contenido-grafico-toptenistas" id="contenedor-grafico-toptenistas">
+                    <div class="titulo-grafico-toptenistas">
+                        <h3> Les mostramos ese ranking histórico de tenistas con el número de Grand Slams conseguidos en su historia </h3>
+                    </div>
+                    <div class="grafico-toptenistas" id="grafico-toptenistas"></div>
+                </div>
+            </section>
+            <!-- Carrusel con las imágenes de los trofeos más importantes del tenis arriba donde se puede ir cambiando con flechas a la izquierda y derecha, y la foto del centro es la misma que aparece abajo en grande -->
+            <section class="contenedor-trofeos">
+                <div class="contenido-trofeos">
+                    <div class="titulo-trofeos">
+                        <h2> Títulos más importantes en el tenis </h2>
+                    </div>
+                    <div id="carrusel-trofeos" class="carrusel-trofeos">
+                        <div class="contenido-carrusel-trofeos">
+                            <div id="fizq">
+                                <img src="./images/flecha-izquierda.svg" class="imagen-flecha" alt="Flecha izquierda">
+                            </div>
+                            <div id="izq85">
+                                <img id="imagen1" src="./images/openaustralia.jpg" class="imagen-carrusel" alt="Open Australia">
+                            </div>
+                            <div id="izq50">
+                                <img id="imagen2" src="./images/rolandgarros.jpg" class="imagen-carrusel" alt="Roland Garros">
+                            </div>
+                            <div id="centro">
+                                <img id="imagen3" src="./images/wimbledon.jpg" class="imagen-carrusel" alt="Wimbledon">
+                            </div>
+                            <div id="der50">
+                                <img id="imagen4" src="./images/usopen.jpg" class="imagen-carrusel" alt="US Open">
+                            </div>
+                            <div id="der85">
+                                <img id="imagen5" src="./images/copadavis.jpg" class="imagen-carrusel" alt="Copa Davis">
+                            </div>
+                            <div id="fder">
+                                <img src="./images/flecha-derecha.svg" class="imagen-flecha" alt="Flecha derecha">
+                            </div>
+
+                        </div>
+                        <div id="imagengrande-trofeos">
+                            <img src="./images/wimbledon.jpg" alt="Imagen grande" class="fotogrande-trofeos" id="imagen">
+                            <div class="texto-imagengrande" id="texto-imagengrande">
+                                <h2> Wimbledon </h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- Pie de página que contiene los datos de contacto, ubicacion y enlace a redes sociales de la Federacion de Tenis -->
+        <footer>
+            <p> Domicilio social: Gran Vía de Carles III, 124. 08034 Barcelona. <br> <br> &copy; Queda prohibida la reproducción total o parcial del contenido sin autorización expresa de la Federación Internacional de Tenis. <br><br> Siguenos en: <br><br></p>
+            <a href="https://x.com/ITFTennis_es?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
+                <img src="./images/x.png" class="logos-redes" alt="Logo de X">
+            </a>
+            <a href="https://www.facebook.com/InternationalTennisFederation/?locale=es_ES">
+                <img src="./images/facebook.png" class="logos-redes" alt="Logo de Facebook">
+            </a>
+            <a href="https://www.instagram.com/itftennis_es/">
+                <img src="./images/instagram.png" class="logos-redes" alt="Logo de Instagram">
+            </a>
+            <a href="https://www.youtube.com/channel/UCsyvlpbK0BTEc3jec6nhPyQ">
+                <img src="./images/youtube.png" class="logo-Youtube" alt="Logo de Youtube">
+            </a>
+        </footer>
+      
+
+    <script src ="./js/script.js"></script>
+    <script src ="./js/noticias.js"></script>
+    <script src ="./js/grafico.js"></script>
+    <script src ="./js/carrusel.js"></script>
+</body>
+</html>
+
+
+
+    
