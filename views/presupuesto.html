@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Presupuesto </title>
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+    <header>
+        <div class="contenedor-navbar">
+            <img class="logo" src="../images/logo-tenis.png" alt="Logo de la federación de tenis">
+            <nav class="nav-links">
+                <a href="../index.html" id="index"> Inicio </a>
+                <a href="./galeria.html"> Galería </a>
+                <a href="./presupuesto.html"> Presupuesto </a>
+                <a href="./contacto.html"> Contacto </a>
+            </nav>
+        </div>
+    </header>
+    <!-- Formulario para proceder a la compra de un pack de productos de tenis. Cuenta con un apartado de datos personales, otro de distintos elementos (raquetas, pelotas, mochilas...) que puede añadir a la lista de la compra, la obligación de aceptar la politica de privacidad, unido a un boton para enviar todos estos datos -->
+    <section class="contenedor-formulario">
+        <form class="formulario" id="formulario">
+            <div class="titulo-presupuesto">
+                <h2> Rellene el formulario para su compra de un pack de tenis </h2>
+            </div>
+            <fieldset class="seccion-formulario">
+                <legend> Datos </legend>
+                <div class="input-contenedor">
+                    <label for="nombre"> Nombre: </label>
+                    <input type="text" id="nombre" name="nombre">
+                    <span class="error" id="nombreError"></span>
+                </div>
+                <div class="input-contenedor">
+                    <label for="nombre"> Apellidos: </label>
+                    <input type="text" id="apellidos" name="apellidos">
+                    <span class="error" id="apellidosError"></span>
+                </div>
+                <div class="input-contenedor">
+                    <label for="telefono"> Teléfono de contacto: </label>
+                    <input type="tel" id="telefono" name="telefono">
+                    <span class="error" id="telefonoError"></span>
+                </div>
+                <div class="input-contenedor">
+                    <label for="email"> Email: </label>
+                    <input type="email" id="email" name="email">
+                    <span class="error" id="emailError"></span>
+                </div>
+            </fieldset>
+            <fieldset class="seccion-formulario" id="seccion-formulario">
+                <legend> Presupuesto </legend>
+                <label for="seleccion-raqueta"> Elige la marca de raqueta de tenis que le guste: </label>
+                <select name="seleccion-raqueta" class="seleccion-raqueta" id="seleccion-raqueta" required>
+                    <option value=""> --Selecciona una raqueta-- </option>
+                    <option value="65"> Raqueta Babolat - 65€ </option>
+                    <option value="60"> Raqueta Wilson - 60€ </option>
+                    <option value="55"> Raqueta Dunlop - 55€ </option>
+                    <option value="50"> Raqueta Head - 50€ </option>
+                </select>
+                
+                <div class="seleccion-extras">
+                    <p> Elija los accesorios extras que quiere para compañar a su raqueta:</p>
+                    <label>
+                        <input type="checkbox" class="checkbox-extra" value="16">
+                        Pelotas de tenis 16€
+                    </label>
+                    <label>
+                        <input name="zapatillas" type="checkbox" class="checkbox-extra" value="35">
+                        Zapatillas 35€
+                    </label>
+                    <label>
+                        <input type="checkbox" class="checkbox-extra" value="25">
+                        Mochila 25€
+                    </label>
+                    <label>
+                        <input type="checkbox" class="checkbox-extra" value="4">
+                        Muñequera 4€
+                    </label>
+                    <label>
+                        <input type="checkbox" class="checkbox-extra" value="10">
+                        Cinta de agarre 10€
+                    </label>
+                </div>
+                <div class="input-contenedor">
+                    <label for="plazo"> Plazo de días en el que recibirá su raqueta (cuanto mayor sea, mayor descuento): </label>
+                    <input type="number" id="plazo" name="plazo" min="0" max="50">
+                    <span class="error" id="plazoError"></span>
+                </div>
+                <h3 class="compra-final" id="compra-final"> Precio de la compra final: 0€ </h3>
+            </fieldset>
+            
+            <fieldset class="seccion-formulario">
+                <legend > Condiciones y envío </legend>
+                <label>
+                <input type="checkbox" class="checkbox-privacidad" value="politicaPrivacidad"> He leído y acepto las políticas de privacidad
+                </label>
+                <div class="boton-contenedor">
+                    <input type="submit" class="boton-enviar" value="Enviar"> 
+                </div>
+            </fieldset>
+        </form>
+    </section>
+   
+    <footer>
+        <p> Domicilio social: Gran Vía de Carles III, 124. 08034 Barcelona. <br> <br> &copy; Queda prohibida la reproducción total o parcial del contenido sin autorización expresa de la Federación Internacional de Tenis. <br><br> Siguenos en: <br><br></p>
+        <a href="https://x.com/ITFTennis_es?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
+            <img src="../images/x.png" class="logos-redes"  alt="Logo de X">
+        </a>
+        <a href="https://www.facebook.com/InternationalTennisFederation/?locale=es_ES">
+            <img src="../images/facebook.png" class="logos-redes"  alt="Logo de Facebook">
+        </a>
+        <a href="https://www.instagram.com/itftennis_es/">
+            <img src="../images/instagram.png" class="logos-redes" alt="Logo de Instagram">
+        </a>
+        <a href="https://www.youtube.com/channel/UCsyvlpbK0BTEc3jec6nhPyQ">
+            <img src="../images/youtube.png" class="logo-Youtube"  alt="Logo de Youtube">
+        </a>
+    </footer>
+
+    
+    <script src ="../js/script.js"></script>
+    <script src ="../js/validacion-formulario.js"></script>
+    <script src="../js/presupuesto.js"></script>
+</body>
+</html>

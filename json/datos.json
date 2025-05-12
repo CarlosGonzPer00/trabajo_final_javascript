@@ -1,0 +1,107 @@
+[
+    {
+        "titular": "Granollers consigue el 4º título Challenger español de la temporada",
+        "subtitulo": "En el Challenger 175 de Phoenix, Marcel Granollers ha ganado el título de dobles con Horacio Zeballos. Han vencido en la final a Ram y Krajicek. Es su 59º título de dobles.",
+        "fechaPublicacion": "19-03-2025",
+        "imagen": "./images/noticia1.jpg",
+        "link":"https://www.marca.com/tenis/2025/03/19/marcel-granollers-protagoniza-cuarto-titulo-challenger-espanol-temporada.html"
+    },
+    {
+        "titular": "Kyrgios, ahora n.892 del mundo, gana su primer partido ATP desde 2022",
+        "subtitulo": "Nick Kyrgios ha logrado su primer triunfo en la ATP desde su última victoria en el ATP 500 de Tokio en octubre de 2022. Venció al estadounidense Mackenzie McDonald (101).",
+        "fechaPublicacion": "20-03-2025",
+        "imagen": "./images/noticia2.jpg",
+        "link": "https://www.marca.com/tenis/miami-open/2025/03/20/nick-kyrgios-caido-numero-892-mundo-gana-primer-partido-atp-2022.html"
+    },
+    {
+        "titular": "Sinner jugará en Hamburgo antes de Roland Garros",
+        "subtitulo": "Jannik Sinner ya piensa en cómo será su vuelta a la competición oficial. Ha decidido jugar la semana antes del Abierto galo. Será en el Open 500 de Hamburgo del 17 al 24 de mayo.",
+        "fechaPublicacion": "18-03-2025",
+        "imagen": "./images/noticia3.jpg",
+        "link": "https://www.marca.com/tenis/2025/03/18/jannik-sinner-anade-torneo-sorpresa-jugara-hamburgo-roland-garros.html"
+    },
+    {
+        "titular": "Cina tira la puerta del tenis con 17 años",
+        "subtitulo": "Federico Cina, actualmente n.441 del ranking ATP, debutó en el circuito ATP y aprovechó al máximo su invitación tras derrotar en primera ronda al argentino Francisco Comesaña (67) en dos sets",
+        "fechaPublicacion": "20-03-2025",
+        "imagen": "./images/noticia4.jpg",
+        "link": "https://as.com/tenis/masters_1000/federico-cina-tira-la-puerta-del-tenis-con-17-anos-n/"
+    },
+    {
+        "titular": "Alcaraz no apoya la demanda de la PTPA de Djokovic",
+        "subtitulo": "El murciano ha mostrado su disconformidad con la denuncia presentada: 'No puedo apoyar esta carta porque no sabía absolutamente nada al respeto. Me enteré a través de las redes sociales'.",
+        "fechaPublicacion": "19-03-2025",
+        "imagen": "./images/noticia5.jpg",
+        "link": "https://www.marca.com/tenis/2025/03/19/carlos-alcaraz-apoya-demanda-ptpa-djokovic-nadie-me-habia-dicho.html"
+    },
+    {
+        "titular": "Munar completa una gran jornada para el tenis español en Miami",
+        "subtitulo": "Jaume Munar se enfrentará en segunda ronda del Miami Open al ruso Daniil Medvedev, y Roberto Carballés (53) vengó su derrota en Indian Wells ante el australiano Christopher O'Connell (78).",
+        "fechaPublicacion": "20-03-2025",
+        "imagen": "./images/noticia6.jpg",
+        "link": "https://www.mundodeportivo.com/tenis/20250320/1002429084/munar-completa-gran-jornada-tenis-espanol-miami.html#google_vignette"
+    },
+    {
+        "titular": "Goffin emerge como primer rival de Alcaraz en Miami",
+        "subtitulo": "Goffin tendrá una desafío gigantesco:: medir al antiguo campeón Carlos Alcaraz en la segunda ronda. El centroeuropeo ganó en un duelo a tumba abierta ante el australiano Aleksandar Vukic.",
+        "fechaPublicacion": "19-03-2025",
+        "imagen": "./images/noticia7.jpg",
+        "link": "https://www.atptour.com/es/news/miami-2025-goffin-primer-rival-alcaraz"
+    },
+    {
+        "titular": "El Godó se renueva con cuatro 'top 10' y un corte histórico en el puesto 40",
+        "subtitulo": "El ATP 500 Barcelona  se celebrará del 12 al 20 de abril y contará con la participación de 4 jugadores del top 10: Carlos Alcaraz (3), Casper Ruud (6), Andrey Rublev (9) y Stefanos Tsitsipas (10).",
+        "fechaPublicacion": "17-03-2025",
+        "imagen": "./images/noticia8.jpg",
+        "link": "https://www.marca.com/tenis/2025/03/17/godo-renueva-cuatro-top10-16-jugadores-cuadro.html"
+    },
+    {
+        "titular": "Draper ilusiona inscribe su nombre en el palmarés de Indian Wells",
+        "subtitulo": "Jack Draper se ha convertido en el quinto británico en ganar un título de categoría Masters 1000. El británico ha acabado con la resistencia de un superado Holger Rune.",
+        "fechaPublicacion": "16-03-2025",
+        "imagen": "./images/noticia9.jpg",
+        "link": "https://www.marca.com/tenis/indian-wells/2025/03/16/jack-draper-ilusiona-pueblo-britanico-e-inscribe-nombre-palmares-indian-wells.html"
+    },
+    {
+        "titular": "Zapata cae en la final de Les Franqueses",
+        "subtitulo": "El italiano Fabrizio Andaloro (534) se proclamó campeón del torneo M25 Les Franqueses del Vallès derrotando al valenciano Bernabé Zapata (334) en la final del torneo disputado en el CT Els Gorchs.",
+        "fechaPublicacion": "19-03-2025",
+        "imagen": "./images/noticia10.jpg",
+        "link": "https://www.mundodeportivo.com/tenis/20250319/1002427814/zapata-cae-final-les-franqueses.html"
+    },
+    {
+        "titular": "Zverev se convierte en el tenista alemán con más torneos Masters 1000",
+        "subtitulo": "Alexander Zverev ha debutado con una cómoda victoria ante el 'qualy' Jacob Fearnley. Su triunfo le convierte en el jugador de su país con más partidos ganados en categoría Masters 1000, con 145. Desempata con Tommy Haas.",
+        "fechaPublicacion": "22-03-2025",
+        "imagen": "./images/noticia11.jpg",
+        "link": "https://www.marca.com/tenis/2025/03/22/alexander-zverev-falla-tenista-aleman-ganado-torneos-masters-1000.html"
+    },
+    {
+        "titular": "El Open Menorca ATP Challenger 100 se presenta en el Club Tennis Ciutadella",
+        "subtitulo": "El Open Menorca ATP Challenger 100 se disputará del 30 de marzo al 6 de abril. Marin Čilić y Borna Coric, junto a los españoles Taberner, Ramos Viñolas, Rincón y Barranco, participarán en el torneo.",
+        "fechaPublicacion": "14-03-2025",
+        "imagen": "./images/noticia12.jpg",
+        "link": "https://www.marca.com/tenis/2025/03/14/open-menorca-atp-challenger-100-presenta-oficialmente-club-tennis-ciutadella.html"
+    },
+    {
+        "titular": "Fonseca tuvo otra semana consagratoria y crece en el ranking ATP",
+        "subtitulo": "El brasileño Joao Fonseca conquistó su segundo título más importante en el Challenger 175 de Phoenix. Aseguró el mejor ranking de su carrera (60) venciendo en la final al kazajo Alexander Bublik.",
+        "fechaPublicacion": "20-03-2025",
+        "imagen": "./images/noticia13.jpg",
+        "link": "https://espndeportes.espn.com/tenis/nota/_/id/14926373/joao-fonseca-tuvo-otra-semana-consagratoria-y-crece-en-el-ranking-atp-challenger-phoenix-atp-tenis"
+    },
+    {
+        "titular": "Djokovic defiende la denuncia de la PTPA: “No estamos donde deberíamos estar”",
+        "subtitulo": "El serbio se mostró contrario a que se cree una división en el tenis y afirmó que la denuncia de la PTPA se debe a que los jugadores no están en la posición que se merecen.",
+        "fechaPublicacion": "21-03-2025",
+        "imagen": "./images/noticia14.jpg",
+        "link": "https://as.com/tenis/masters_1000/djokovic-defiende-la-denuncia-de-la-ptpa-no-estamos-donde-deberiamos-estar-n/"
+    },
+    {
+        "titular": "Davidovich supera una dura prueba en Miami antes de afrontar otro 'coco'",
+        "subtitulo": "Alejandro Davidovich ha empezado bien el segundo Masters 1.000 de la temporada, al doblegar a Jan-Lennard Struff (49). Se enfrentará en segunda ronda a otro 'coco' como Frances Tiafoe (n.17).",
+        "fechaPublicacion": "20-03-2025",
+        "imagen": "./images/noticia15.jpg",
+        "link": "https://www.mundodeportivo.com/tenis/20250320/1002429652/davidovich-supera-dura-prueba-miami-afrontar-coco.html"
+    }
+]
